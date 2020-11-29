@@ -1,9 +1,10 @@
 import React from 'react'
+import { Button } from 'antd'
 
 export default function SystemConfig() {
   return (
     <div>
-        配置管理
+       <Button type="primary">配置管理</Button>
     </div>
   )
 }

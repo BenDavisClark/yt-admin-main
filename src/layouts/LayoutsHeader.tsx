@@ -79,9 +79,9 @@ export default function LayoutHeader(props: HeaderLayoutProps) {
     /**
      * 初始化加载用户信息
      */
-    getProfile().then((data: any) => {
-      setProfile(data)
-    })
+    // getProfile().then((data: any) => {
+    //   setProfile(data)
+    // })
   })
 
   const menu = (
