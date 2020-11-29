@@ -1,0 +1,63 @@
+@import '~normalize.css';
+@import '~antd/dist/antd.less';
+
+.layouts {
+  width: 100vw;
+  height: 100vh;
+
+  .trigger {
+    font-size: 18px;
+    padding: 0 24px;
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+
+  .trigger:hover {
+    color: #1890ff;
+  }
+
+  .logo {
+    height: 32px;
+    background: rgba(255, 255, 255, 0.2);
+    margin: 16px;
+  }
+
+  .site-layout .site-layout-background {
+    background: #fff;
+  }
+}
+
+.layouts-content {
+  padding: 16px;
+  padding-bottom: 70px;
+  overflow: auto;
+}
+
+.layouts-header {
+  padding-left: 0;
+  padding-right: 16px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.layouts-header-left {
+  display: flex;
+  align-items: center;
+}
+
+.ay-search-table.full {
+  padding-bottom: 70px;
+}
+
+.layouts .ay-search-table-footer-actions {
+  transition: 300ms;
+  width: calc(100vw - 200px);
+}
+
+.layouts.collapsed .ay-search-table-footer-actions {
+  width: calc(100vw - 80px);
+}
+
+.layouts .ay-search-table.full .ay-search-table-footer-actions {
+  width: 100%;
+}
