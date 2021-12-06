@@ -9,11 +9,10 @@ $ yarn
 $ cnpm i
 ```
 
-Start the dev server,
+启动项目
 
 ```bash
 $ yarn start
 $ cnpm run start
 ```
 
-注册子应用请看子应用的文档
